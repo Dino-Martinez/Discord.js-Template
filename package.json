@@ -1,0 +1,23 @@
+{
+  "name": "discordjs-template",
+  "version": "0.0.0",
+  "description": "A starter template for discord.js bots",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "lint": "eslint .",
+    "fix": "eslint . --fix"
+  },
+  "keywords": [],
+  "author": "Secundino Martinez",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.3"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "eslint": "^7.32.0",
+    "standard": "^16.0.3"
+  }
+}
